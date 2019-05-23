@@ -1,0 +1,13 @@
+{
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "cSpell.words": [
+        "Atlassian",
+        "Bitbucket"
+    ],
+}

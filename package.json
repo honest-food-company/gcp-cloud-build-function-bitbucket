@@ -1,0 +1,30 @@
+{
+  "name": "gcp-cloud-build-bitbucket",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.18.0",
+    "axios": "0.18.0"
+  },
+  "description": "Sends build status of a commit from GCP Cloud Build to Bitbucket.",
+  "main": "index.js",
+  "devDependencies": {
+    "@google-cloud/pubsub": "^0.18.0",
+    "axios": "0.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Atlassian",
+    "Bitbucket",
+    "Build Status",
+    "Build",
+    "CI/CD",
+    "Cloud Functions",
+    "Cloud",
+    "GCP",
+    "Pub/Sub"
+  ],
+  "author": "Clemens Peters",
+  "license": "ISC"
+}
