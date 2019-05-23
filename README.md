@@ -1,5 +1,8 @@
 # Cloud Build Status to Bitbucket
 
+![picture](img/gcp-logo.png)
+![picture](img/bitbucket-logo.png)
+
 ## Keywords
 
 Google Cloud Platform (GCP),
