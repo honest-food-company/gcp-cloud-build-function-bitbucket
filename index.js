@@ -27,10 +27,14 @@ exports.processPubSubMessage = (event, context) => {
       uuid: message.id,
   }
   // Send request to Bitbucket.
-  const token = process.env.BITBUCKET_TOKEN;
+  const user = process.env.BITBUCKET_USER;
+  const pass = process.env.BITBUCKET_APP_PASS;
   const url = getBuildUrl(username, repo_slug, commitSha);
   axios.post(url, payload, {
-      headers: { Authorization: `Basic ${token}` }
+      auth: {
+            username: user,
+            password: pass
+        }
   })
       .then(function(response){
           console.log(response);
