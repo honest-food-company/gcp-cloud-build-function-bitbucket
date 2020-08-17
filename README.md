@@ -21,4 +21,5 @@ When ever Cloud Build runs, the status will be pushed to Bitbucket.
   * Set the Pub/Sub topic **cloud-builds** as trigger
   * Set **Node.js 8** as runtime
   * Set **Function to execute** to **processPubSubMessage**
-  * Define the **BITBUCKET_TOKEN** environment variable (under *More*)
+  * Define the **BITBUCKET_USER** environment variable (under *More*)
+  * Define the **BITBUCKET_APP_PASS** environment variable (under *More*)
